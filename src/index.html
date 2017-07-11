@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Spotilite</title>
+    <style>
+    body,
+    html,
+    webview {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+    </style>
+  </head>
+  <body>
+    <webview id="spotify" src="https://open.spotify.com" autosize preload="./renderer/webview.js" plugins></webview>
+    <script src="./renderer/wrapper.js"></script>
+  </body>
+</html>

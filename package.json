@@ -1,0 +1,34 @@
+{
+  "name": "Spotilite",
+  "version": "1.0.0",
+  "description": "Spotilite is Spotify lite version",
+  "productName": "Spotilite",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron src/main/main.js",
+    "package": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=builds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dafadhiya/Spotilite.git"
+  },
+  "keywords": [
+    "electron",
+    "desktop",
+    "netflix",
+    "video"
+  ],
+  "author": "Dafa Dhiya Ulhaq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dafadhiya/Spotilite/issues"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.6.0",
+    "electron-prebuilt": "^0.36.0"
+  }
+}
