@@ -24,7 +24,7 @@
     "url": "https://github.com/dafadhiya/Spotilite/issues"
   },
   "dependencies": {
-    "jquery": "^2.1.4",
+    "jquery": "^3.4.0",
     "underscore": "^1.7.0"
   },
   "devDependencies": {
